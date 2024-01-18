@@ -18,7 +18,7 @@ Most of the logic is within src/components/taskBlock.tsx
 
 5. Navigate to Vite's default server [port](http://localhost:5173) in your browser
 
-6. Set up the local php server following the instructions at [https://github.com/GeorgeHarland/RTHG-todo-backend](https://github.com/GeorgeHarland/routine-backend)
+6. Set up the local php server following the instructions at [https://github.com/GeorgeHarland/routine-backend/](https://github.com/GeorgeHarland/routine-backend/)
 
 ## Gallery:
 
