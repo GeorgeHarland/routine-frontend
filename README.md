@@ -4,7 +4,7 @@ A todo/habit app built with react, tailwind, typescript, and jest. The backend u
 
 RoutineCheck allows for CRUD operations for todo tasks in hourly daily or todo lists. The server will mark hourly tasks as incomplete each hour, and daily tasks once a day.
 
-Most of the logic is within src/components/taskBlock.tsx
+Most of the logic is within src/components/taskBlock.tsx. Prettier is used for code formatting.
 
 ## Run:
 
