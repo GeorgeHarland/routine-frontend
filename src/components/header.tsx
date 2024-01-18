@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <div
-      className="flex gap-y-4 
+      className="flex gap-4 
       max-md:flex-col max-md:items-center
       md:justify-between md:mb-8"
     >

@@ -52,3 +52,21 @@ h1 {
 p {
   @apply font-roboto;
 }
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.25rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    font-size: 1.75rem;
+  }
+  h1 {
+    font-size: 3.25rem;
+  }
+}

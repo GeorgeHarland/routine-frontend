@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# RoutineCheck
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A todo/habit app built with react, tailwind, typescript, and jest. The backend uses php/laravel.
 
-Currently, two official plugins are available:
+RoutineCheck allows for CRUD operations for todo tasks in hourly daily or todo lists. The server will mark hourly tasks as incomplete each hour, and daily tasks once a day.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run:
 
-## Expanding the ESLint configuration
+1. Install Node.js (if not done yet): download and install Node.js from the [official website](https://nodejs.org) following the installation instructions for your operating system.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Clone the repository
 
-- Configure the top-level `parserOptions` property like this:
+3. Install dependencies by running 'npm install'
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+4. Start the development server using 'npm run dev'
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+5. Navigate to Vite's default server [port](http://localhost:5173) in your browser
+
+6. Set up the local php server following the instructions at https://github.com/GeorgeHarland/RTHG-todo-backend
+
+## Future Todos:
+
+- Fix the jest test
+- Add a streak count for completed tasks
+- Improve the design. Quite bland at the moment
+- Completed todos should move to the bottom of the list
+- popup for 'are you sure you want to delete this todo?'
